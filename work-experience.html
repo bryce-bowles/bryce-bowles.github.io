@@ -94,11 +94,8 @@
 
 									<b>Specific Project Details:</b><p><span href="" class="image right"><img src="images/VanePump.png" />
 									<ul>
-									<li><b>Project Name:</b> V104C Vane Pump
-									<li><b>Objective:</b> Enhance the company's decision-making processes through the creation of a machine learning regression predictive model. Specifically, Afton Chemical's R&D formulators will use the tool to predict the test (ASTM D7043) weight loss on specified fluid properties. 
-									<li><b>Approach:</b> Leveraged quantile regression forest techniques to develop a model that incorporated 80% prediction intervals. This robust approach allowed for more comprehensive insights into the company's data.
-									<li><b>Validation:</b> Rigorous validation was conducted under various scenarios, including comparison with Gaussian Process Models, Gradient Boosting Models, Cubist, Neural Networks, xgbTree, etc.
-									<li><b>Deployment:</b> Upon successful development and validation, the model was deployed into a robust production RShiny application. This application empowered end users and formulators to predict outcomes and assess the accuracy and precision of selected formulas.
+									<li><b>Project Name:</b> Pump Model
+									<li><b>Details:</b> Developed and deployed a quantile regression forest predictive model with prediction intervals to support R&D decision-making in standardized performance testing. The model was benchmarked against alternative approaches (Gaussian Process Models, Gradient Boosting, Cubist, Neural Networks, xgbTree, etc.) and integrated into internal decision-support tools. This enabled formulators to assess predicted outcomes with improved confidence and precision.
 									</ul>
 									
 										
@@ -109,18 +106,18 @@
 
 										
 								<p><br/> </p>	
-								<h3 id="Oxidation"><a href="https://github.com/bryce-bowles/D943_Oxidation.git">Oxidation Characteristics of Inhibited Mineral Oils</a></h2>
+								<h3 id="Oxidation"><a href="https://github.com/bryce-bowles/D943_Oxidation.git">Oxidation Stability Modeling/a></h2>
 										<p><span href="https://github.com/bryce-bowles/D943_Oxidation.git" class="image right"><img src="images/Oxidation.png" />
-									<p>Developed and a quantile regression forest predictive model including 80% prediction intervals for Afton’s R&D CTS  section. The D943 Oxidation lifetime <a href="https://compass.astm.org/document/?contentCode=ASTM%7CD0943-20%7Cen-US&proxycl=https%3A%2F%2Fsecure.astm.org&fromLogin=true">(ASTM D943)</a> model was validated under multiple scenarios to ensure reproducibility and generalization such as comparing with Gaussian Process Models, Principal Component Regression, lasso regression etc. </p>
-									<p><span href="https://compass.astm.org/document/?contentCode=ASTM%7CD0943-20%7Cen-US&proxycl=https%3A%2F%2Fsecure.astm.org&fromLogin=true" class="image left"><img src="images/OxidationCell.png" alt="" /> <p>A final model was then trained and built with all data. Correlation Coefficients in relation to the Oxidation Life where then described to the business owner / users. The model was then deployed into a robust production RShiny application, built for end users / formulators to predict the Outcome and assess the accuracy and precision of the selected formula.
+									<p>Built a quantile regression forest predictive model with prediction intervals to forecast oxidation stability in fluids. The model was validated across multiple scenarios and benchmarked against methods such as Gaussian Process Models, Principal Component Regression, and lasso regression. Final results were delivered through an internal decision-support application to help R&D improve accuracy and precision in predicting fluid lifetimes. </p>
+									<p><span href="https://compass.astm.org/document/?contentCode=ASTM%7CD0943-20%7Cen-US&proxycl=https%3A%2F%2Fsecure.astm.org&fromLogin=true" class="image left"><img src="images/OxidationCell.png" alt="" /> <p>.
 								<p><br/> </p>
 								<p><br/> </p>
 								<p><br/> </p>
 								<hr>
 								
-								<h3 id="FZG"><a href="https://github.com/bryce-bowles/FZG_FailureLoadStage.git">FZG A10/16.6R/90 Scuffing Model</a></h2>
+								<h3 id="FZG"><a href="https://github.com/bryce-bowles/FZG_FailureLoadStage.git">Scuffing Resistance Prediction</a></h2>
 										<p><span href="https://github.com/bryce-bowles/bryce-bowles.github.io/raw/main/images/FZG.jpg" class="image right"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShgjsq94MCNaZbFaj8ZxhrK9ECYiX-wbsBYQ&usqp=CAU" />
-									<p>Developed a precise and accurate Random Forest predictive model to predict FZG A10/16.6R/90 Scuffing Failure Load Stage, increasing prediction accuracy by 26.22% above the No Information Rate (NIR of 53.8%) to 80%, and increasing precision (reducing RMSE). The model was deployed to NewMarket's Formulator Tool Kit for better, faster, cheaper product development in the Driveline business unit. Business domain knowledge was (such as components of formulations) for model completeness. Data cleaning, dimension reduction, feature engineering, sensitivity analysis and extrapolation tests were completed. Multiple models were built, and the "ranger" Random Forest model was chosen for regression and classification. A final model was trained and built with all data, and the correlation coefficients were described to the business owner/users. The model was deployed into a production RShiny application for end users/formulators to predict the Failure Load Stage and assess the accuracy and precision of the selected formula. </p>
+									<p>Developed a Random Forest predictive model to forecast scuffing resistance in driveline fluids. The model significantly outperformed baseline methods in both accuracy and precision, contributing to faster and more reliable product development. Work included data cleaning, dimension reduction, feature engineering, sensitivity analysis, and model benchmarking. The final model was integrated into internal R&D tools to guide formulation decisions. </p>
 									 <p><br/> </p>
 								<hr>
 											
@@ -596,3 +593,4 @@
 
 	</body>
 </html>
+
